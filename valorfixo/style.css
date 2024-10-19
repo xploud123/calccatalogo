@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #a8a8a8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #910000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-right: 10px;
+    width: 100px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #4a0000;
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.retorno {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.valor-fixo {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.valor-fixo label {
+    margin-right: 10px;
+}
+
+.valor-fixo input {
+    width: 50px; /* Um input menor para o valor fixo */
+    padding: 5px;
+}
