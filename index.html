@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Calculadoras</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="auth.js" defer></script> <!-- Verificação de login -->
+  <script src="index.js" defer></script> <!-- Lógica do catálogo -->
+</head>
+<body>
+  <div id="catalogo">
+    <div class="titulo-catalogo">
+      <h1>Catálogo de Calculadoras</h1>
+    </div>
+
+    <div class="grid">
+      <div class="box" onclick="redirecionar('apostagratis')">
+        <div class="nome">Aposta Grátis</div>
+        <img src="imagens/calculadora1.png" alt="Aposta Grátis">
+      </div>
+
+      <div class="box" onclick="redirecionar('valorfixo')">
+        <div class="nome">Valor Fixo</div>
+        <img src="imagens/calculadora2.png" alt="Valor Fixo">
+      </div>
+
+      <div class="box" onclick="redirecionar('calculadora02odds')">
+        <div class="nome">Calculadora 2 Odds</div>
+        <img src="imagens/calculadora3.png" alt="Calculadora 2 Odds">
+      </div>
+
+      <div class="box" onclick="redirecionar('calculadora03odds')">
+        <div class="nome">Calculadora 3 Odds</div>
+        <img src="imagens/calculadora4.png" alt="Calculadora 3 Odds">
+      </div>
+
+      <div class="box" onclick="redirecionar('calculadora04odds')">
+        <div class="nome">Calculadora 4 Odds</div>
+        <img src="imagens/calculadora5.png" alt="Calculadora 4 Odds">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
