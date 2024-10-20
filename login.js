@@ -1,6 +1,6 @@
 // Usuário e senha corretos
-const USERNAME = "Xploud";
-const PASSWORD = "146270";
+const USERNAME = "admin";
+const PASSWORD = "Ag20052023eva";
 
 // Verificar login
 document.getElementById("login-btn").addEventListener("click", () => {
