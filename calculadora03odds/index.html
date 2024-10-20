@@ -46,6 +46,18 @@
         <div id="resultado" class="resultado">
             Não há Aposta com essas odds.
         </div>
+
+        <!-- Botão de Voltar -->
+        <button id="voltar" onclick="voltarPaginaInicial()">Voltar para o Catálogo</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="auth.js" defer></script>
+    <script>
+        function voltarPaginaInicial() {
+            window.location.href = "../index.html";  // Caminho relativo para o catálogo na raiz
+        }
+    </script>
     </div>
 
     <script src="script.js"></script>
